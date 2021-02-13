@@ -1,8 +1,8 @@
 # some global settings for GCC
-COMP_LAGS=-g -Wall
+COMP_FLAGS=-g -Wall
 
 HelloWorld:
-	gcc $(COMP_LAGS) -o HelloWorld.out helloworld.c
+	gcc $(COMP_FLAGS) -o HelloWorld.out helloworld.c
 
 clean:
 	rm -v HelloWorld.out
