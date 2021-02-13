@@ -5,4 +5,4 @@ program:
 	gcc $(COMP_FLAGS) -o fahrceltab.out fahrceltab.c
 
 clean:
-	rm -v fahrceltab.out celfahrtab.out
+	rm -v fahrceltab.out

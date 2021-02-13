@@ -1,4 +1,4 @@
-/* print Fahrenheit to Celsius table */
+/* print Celsius to Fahrenheit table */
 
 #include <stdio.h>
 
