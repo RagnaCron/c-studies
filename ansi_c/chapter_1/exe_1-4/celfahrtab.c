@@ -10,12 +10,12 @@ int main(void) {
     upper = 300;    // upper limit ot temperature table
     step = 20;      // step size temperature
 
-    printf("Shows a Fahrenheit to Celsius table.\n");
+    printf("Shows a Celsius to Fahrenheit table.\n");
 
     celsius = lower;
     while (celsius <= upper) {
         fahr = (celsius * 9.0 / 5.0) + 32.0;
-        printf("%7.1f\t%3.0f\n", celsius, fahr);
+        printf("%7.0f\t%3.0f\n", celsius, fahr);
         celsius += step;
     }
 
