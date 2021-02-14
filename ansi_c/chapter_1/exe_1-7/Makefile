@@ -1,5 +1,8 @@
-show: showEOF.c
-	gcc -g -Wall -o show showEOF.c
+# some global settings for GCC
+COMP_FLAGS=-g -Wall
+
+program:
+	gcc $(COMP_FLAGS) -o show.out showEOF.c
 
 clean:
-	rm show
+	rm -v show.out
